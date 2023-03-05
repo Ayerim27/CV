@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+header div h1{
+    display: flex;
+    align-items: center;
+    font-family: 'Domine', serif;
+    font-size: 4em;
+}
+
+header div p{
+    display: flex;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
+
+.namecontainer{
+    color: white;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    
+}
+img{
+    width: 375px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.allcontent{
+    display: flex;
+}
+
+aside{
+
+    background-color: rgb(179, 179, 179);
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 90px;
+    box-sizing: 15px;
+    border-radius: 50px;
+
+}
+
+.phone{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.number{
+    width: 90%;
+    display: flex;
+    align-self: flex-start;
+}
+
+.adressbox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.adress{
+    width: 90%;
+    display: flex;
+    align-self: flex-start;
+}
+i{
+    width: 10%;
+    align-self: center;
+    font-size: 25px;
+}
+
+.day{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.date{
+    width: 90%;
+    display: flex;
+    align-self: flex-start;
+}
+
+
+.languages{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.languagesbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    
+}
+
+.Profilespecifications{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+
+.footer{
+    width: 100vw;
+    height: 200px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 200px;
+}
+
+.linkedin{
+    width: 90%;
+    display: flex;
+    align-self: flex-start;
+}
+
+.github{
+    width: 90%;
+    display: flex;
+    align-self: flex-start;
+}
+
+
+h2{
+    font-family: 'Domine', serif;
+    font-size: 50px
+}
+
+h3{
+    font-family: 'Domine', serif;
+    font-size: 35px; 
+}
+
+h4{ font-family: 'Domine', serif;
+    font-size: 30px;
+
+}
+p{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+
+}
+
+li{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+.hobbies li{
+    font-size: 25px
+}
